@@ -1,6 +1,7 @@
 provider "aws" {
-  region = var.AWS_REGION
-}
-Access_key_ID = var.Access_key_ID
-Secret_access_key = var.Secret_access_key
+  region     = var.region
+  access_key = var.access_key
+  secret_key = var.secret_key
+  }
+
 
